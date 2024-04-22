@@ -5412,6 +5412,7 @@ footer .copy p {
   left: 20px;
   display: flex;
   flex-direction: column;
+  z-index: 99999999999;
 }
 
 .contact-icons a {
