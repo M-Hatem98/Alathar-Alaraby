@@ -3911,9 +3911,9 @@ header {
 header .top-nav {
 background: var(--secondary-color);
 }
-header .top-nav i:hover, header .top-nav a:hover, header .top-nav span:hover {
+/* header .top-nav i:hover, header .top-nav a:hover, header .top-nav span:hover {
   color: var(--main-color);
-}
+} */
 header .top-nav .contact div {
   display: inline-block;
   margin-right: 30px;
@@ -3922,6 +3922,25 @@ header .top-nav .contact div i {
   color: #fff;
   margin-right: 7px;
 }
+
+header .top-nav .social a {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+header .top-nav .social a:hover {
+  color: fff !important;
+}
+
 header .top-nav .social a:not(:last-of-type) {
   margin-right: 20px;
 }
